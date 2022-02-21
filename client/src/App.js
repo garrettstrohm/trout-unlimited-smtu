@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path={process.env.REACT_APP_API_KEY} element={<Login />} />
+        <Route path={process.env.ADMIN_ROUTE} element={<Login />} />
       </Routes>
     </div>
   );
