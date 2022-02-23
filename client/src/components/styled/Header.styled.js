@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const HeaderImg = styled.img`
-    height: 100%;
+    height: 50vh;
     width: 100%;
 `
 
