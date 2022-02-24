@@ -1,9 +1,10 @@
 import React from 'react'
-import {HeaderImg} from './components/styled/Header.styled'
-import headerImage from './assets/tu-header-image.jpeg'
-import About from './components/About';
-import History from './components/History'
-import './css/Home.css'
+import {HeaderImg} from './styled/Header.styled'
+import headerImage from '../assets/tu-header-image.jpeg'
+import About from './About';
+import History from './History'
+import Donate from './Donate';
+import '../css/Home.css'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <div className='row'>
           <About />
           <History />
+          <Donate />
         </div>
       </div>
     </>
