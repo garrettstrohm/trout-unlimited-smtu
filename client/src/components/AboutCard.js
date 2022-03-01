@@ -7,11 +7,8 @@ import {
   CardFieldset,
 } from "./styled/Card.styled";
 import {Button} from './styled/Button.styled'
-import {useNavigate} from 'react-router-dom'
 
-function About() {
-  
-  const navigate = useNavigate();
+function About({navigate}) {
 
   return (
     <CardWrapper>

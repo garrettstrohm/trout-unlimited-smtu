@@ -4,9 +4,11 @@ import headerImage from '../assets/tu-header-image.jpeg'
 import About from './AboutCard';
 import History from './HistoryCard'
 import Donate from './DonateCard';
+import { useNavigate } from 'react-router-dom';
 import '../css/Home.css'
 
 function Home() {
+  const navigate = useNavigate()
   return (
     <>
       <div className='background'>
@@ -16,9 +18,9 @@ function Home() {
         <h4>To learn more, checkout the links to our various pages below to find the information you need</h4>
       </section>
         <div className='row'>
-          <About />
-          <History />
-          <Donate />
+          <About navigate={navigate}/>
+          <History navigate={navigate}/>
+          <Donate navigate={navigate}/>
         </div>
       </div>
     </>
