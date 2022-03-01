@@ -8,7 +8,8 @@ import {
 } from "./styled/Card.styled";
 import {Button} from './styled/Button.styled'
 
-function Donate() {
+function Donate({navigate}) {
+
   return (
     <CardWrapper>
       <CardHeader>
@@ -21,7 +22,7 @@ function Donate() {
             Looking to join? Or Donate? Read more for details!
         </CardFieldset>
         <CardFieldset>
-          <Button>Read More</Button>
+          <Button onClick={() => navigate('/donate&join')}>Read More</Button>
         </CardFieldset>
       </CardBody>
 
