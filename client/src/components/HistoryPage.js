@@ -2,15 +2,15 @@ import React from 'react'
 import {Container} from './styled/Container.styled.js'
 import {H1} from './styled/H1.styled.js'
 
-function AboutPage() {
+function HistoryPage() {
   return (
     <Container>
         <H1>
-            About Snowy Mountain Trout Unlimited
+            Our Past Projects and Chapter History
         </H1>
         <section>
             <h3>
-                Who We Are and What We Do
+                Past Proijects
             </h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -18,7 +18,7 @@ function AboutPage() {
         </section>
         <section>
             <h3>
-                Annual Activites
+                Chapter History
             </h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -26,7 +26,7 @@ function AboutPage() {
         </section>
         <section>
             <h3>
-                Current Activites/Events/Meetings
+                History of Trout Unlimited
             </h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -34,20 +34,14 @@ function AboutPage() {
         </section>
         <section>
             <h3>
-                Our Board
+                Our Connection to Montana Trout Unlimited
             </h3>
-                <div style={{'display': 'flex', 'flex-direction': 'row'}}>
-                <img src="https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg" alt="woman" style={{'textAlign': 'left', "width": '350px'}}/>
-                <div>
-                    <h4 style={{'textAlign': 'left', 'margin': '0 0 0 30px'}}>
-                        President
-                    </h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-                </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
         </section>
     </Container>
   )
 }
 
-export default AboutPage
+export default HistoryPage
