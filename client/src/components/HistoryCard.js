@@ -7,8 +7,10 @@ import {
   CardFieldset,
 } from "./styled/Card.styled";
 import {Button} from './styled/Button.styled'
+import {useNavigate} from 'react-router-dom'
 
 function History() {
+  const navigate = useNavigate()
   return (
     <CardWrapper>
       <CardHeader>
@@ -21,7 +23,7 @@ function History() {
           See past projects and our connection to Trout Unlimited.
         </CardFieldset>
         <CardFieldset>
-          <Button>Read More</Button>
+          <Button onClick={() => navigate('/history')}>Read More</Button>
         </CardFieldset>
       </CardBody>
 
