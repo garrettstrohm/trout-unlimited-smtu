@@ -7,8 +7,12 @@ import {
   CardFieldset,
 } from "./styled/Card.styled";
 import {Button} from './styled/Button.styled'
+import {useNavigate} from 'react-router-dom'
 
 function About() {
+  
+  const navigate = useNavigate();
+
   return (
     <CardWrapper>
       <CardHeader>
@@ -19,7 +23,7 @@ function About() {
           Checkout our about section to find out more about who we are and what we do!
         </CardFieldset>
         <CardFieldset>
-          <Button>Read More</Button>
+          <Button onClick={() => navigate('/about')}>Read More</Button>
         </CardFieldset>
       </CardBody>
 

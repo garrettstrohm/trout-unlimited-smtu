@@ -1,9 +1,9 @@
 import React from 'react'
 import {HeaderImg} from './styled/Header.styled'
 import headerImage from '../assets/tu-header-image.jpeg'
-import About from './About';
-import History from './History'
-import Donate from './Donate';
+import About from './AboutCard';
+import History from './HistoryCard'
+import Donate from './DonateCard';
 import '../css/Home.css'
 
 function Home() {
