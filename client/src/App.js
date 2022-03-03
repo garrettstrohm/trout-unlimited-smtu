@@ -1,23 +1,26 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home.js'
-import Login from './admin/Login';
-import AboutPage from './components/AboutPage.js';
-import HistoryPage from './components/HistoryPage.js';
-import DonatePage from './components/DonatePage.js';
-import {Container} from './components/styled/Container.styled.js'
-import Donate from './components/DonateCard.js';
+import {Navbar, Footer} from './components'
+import GlobalStyle from './globalStyles';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './pages/HomePage/Home';
+import Signup from './pages/SignUp/SignUp';
+import Products from './pages/Products/Products';
+import Services from './pages/Services/Services';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Container>
+    <Router>
+      <GlobalStyle />
+      <ScrollToTop />
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path={process.env.ADMIN_ROUTE} element={<Login />} />
-        <Route path='/about' element={<AboutPage />}/>
-        <Route path='/history' element={<HistoryPage />}/>
-        <Route path='/donate&join' element={<DonatePage/>}/>
+        <Route exact path='/' element={<Home />}/>
+        <Route path='/services' element={<Services />}/>
+        <Route path='/products' element={<Products />}/>
+        <Route path='/sign-up' element={<Signup />}/>
       </Routes>
-    </Container>
+      <Footer />
+    </Router>
   );
 }
 
