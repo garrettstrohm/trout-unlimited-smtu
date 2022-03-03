@@ -26,16 +26,18 @@ const InfoSection = ({
     headline,
     start,
     img,
-    alt 
+    alt,
+    bgImg,
+    waterBg 
 }) => {
 
   return (
     <>
-       <InfoSec lightBg={lightBg}>
+       <InfoSec lightBg={lightBg} bgImg={bgImg}>
             <Container>
                 <InfoRow imgStart={imgStart}>
                     <InfoColumn>
-                        <TextWrapper>
+                        <TextWrapper waterBg={waterBg}>
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>

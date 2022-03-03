@@ -1,10 +1,14 @@
 import styled from "styled-components";
+import water from '../../assets/water.jpg'
 
 export const InfoSec = styled.div`
     color: #fff;
     width: 100%;
     padding: 160px 0;
     background: ${({lightBg}) => (lightBg ? '#f0f0e2' : '#101522')};
+    background-image: ${({bgImg}) => (bgImg ? `url(${water})` : '')};
+    background-size: cover;
+    background-repeat: none;
 `;
 
 export const InfoRow = styled.div`
@@ -35,6 +39,7 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+    text-shadow: ${({waterBg}) => (waterBg ? '1px 1px 2px #000' : '')};
 
     @media screen and (max-width: 768px){
         padding-bottom: 65px;
@@ -42,7 +47,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: ${({lightTopLine}) => (lightTopLine ? '#A9B3C1' : '#4B59F7')};
+    color: ${({lightTopLine}) => (lightTopLine ? '#fff' : '#4B59F7')};
     font-size: 18px;
     line-height: 16px;
     font-weight: 700;
@@ -62,7 +67,7 @@ export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
-    color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+    color: ${({lightTextDesc}) => (lightTextDesc ? '#fff' : '#1c2237')};
 `;
 
 export const ImgWrapper = styled.div`
