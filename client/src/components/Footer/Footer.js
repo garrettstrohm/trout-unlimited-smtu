@@ -41,8 +41,8 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinksItems>
                     <FooterLinkTitle>About Us</FooterLinkTitle>
-                    <FooterLink to='/sign-up'>How it works</FooterLink>
-                    <FooterLink to='/'>Testimonials</FooterLink>
+                    <FooterLink to='/about'>Our Chapter</FooterLink>
+                    <FooterLink to='/'>History</FooterLink>
                     <FooterLink to='/'>Careers</FooterLink>
                     <FooterLink to='/'>Investors</FooterLink>
                     <FooterLink to='/'>Terms of Service</FooterLink>
@@ -79,10 +79,10 @@ const Footer = () => {
             <SocialMediaWrap>
                 <SocialLogo to='/'>
                     <SocialIcon src={tuLogo}/>
-                    COMPANY
+                    Snowy Mountain Trout Unlimited
                 </SocialLogo>
                 <WebsiteRights>
-                    Company 2022
+                    SMTU © 2022
                 </WebsiteRights>
                 <SocialIcons>
                     <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
