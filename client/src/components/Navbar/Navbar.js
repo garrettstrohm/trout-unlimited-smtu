@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{color: '#fff'}}>
+      <IconContext.Provider value={{color: '#142d5f'}}>
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
@@ -56,19 +56,19 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services'>
-                  Services
+                <NavLinks to='/about'>
+                  About Us
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products'>
-                  Products
+                <NavLinks to='/history'>
+                  Chapter History
                 </NavLinks>
               </NavItem>
               <NavItmBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
+                    <Button primary>Join TU Today</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to='/sign-up'>

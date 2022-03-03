@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../../globalStyles.js'
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'
+import tuLogo from '../../assets/tu-logo-xs.png'
 import {
     FooterContainer,
     FooterSubHeading,
@@ -77,7 +78,7 @@ const Footer = () => {
         <SocialMedia>
             <SocialMediaWrap>
                 <SocialLogo to='/'>
-                    <SocialIcon/>
+                    <SocialIcon src={tuLogo}/>
                     COMPANY
                 </SocialLogo>
                 <WebsiteRights>
