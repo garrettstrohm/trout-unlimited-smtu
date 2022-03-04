@@ -67,11 +67,11 @@ const Navbar = () => {
               </NavItem>
               <NavItmBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/join'>
                     <Button primary>Join TU Today</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/join'>
                     <Button fontBig primary>
                       SIGN UP
                     </Button>

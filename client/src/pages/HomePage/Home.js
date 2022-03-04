@@ -1,10 +1,9 @@
 import React from 'react'
-import { InfoSection, Pricing } from '../../components'
+import { InfoSection } from '../../components'
 import { 
   homeObjOne, 
   homeObjTwo, 
-  homeObjThree, 
-  homeObjFour 
+  homeObjThree
 } from './Data'
 
 const Home = () => {
