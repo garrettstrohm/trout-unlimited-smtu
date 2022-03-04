@@ -1,5 +1,3 @@
-import Svg1 from '../../assets/svg-1.svg'
-import Svg3 from '../../assets/svg-3.svg'
 import tuWhite from '../../assets/tu-white.png'
 import lewistown from '../../assets/fergus.png'
 import flyfishing from '../../assets/flyfishing.jpeg'
@@ -13,7 +11,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Lewistown, MT',
-    headline: 'Welcome to Snowy Mountain Trout Unlimied',
+    headline: 'Welcome to Snowy Mountain Trout Unlimited',
     description:
       'We are based out of Lewistown, MT and are a small chapter of Trout Conversvationalists.',
     buttonLabel: 'About Us',

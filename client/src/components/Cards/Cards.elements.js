@@ -1,19 +1,20 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const PricingSection = styled.div`
-  padding: 100px 0 160px;
+export const CardsSection = styled.div`
+  padding: 100px 0 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: #bf5106;
 `;
 
-export const PricingWrapper = styled.div`
+export const CardsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  
   @media screen and (max-width: 960px) {
     margin: 0 30px;
     display: flex;
@@ -22,13 +23,13 @@ export const PricingWrapper = styled.div`
   }
 `;
 
-export const PricingHeading = styled.h1`
+export const CardsHeading = styled.h1`
   color: #fff;
   font-size: 48px;
   margin-bottom: 24px;
 `;
 
-export const PricingContainer = styled.div`
+export const CardsContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +42,7 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
+export const CardsCard = styled(Link)`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
@@ -64,7 +65,7 @@ export const PricingCard = styled(Link)`
   }
 `;
 
-export const PricingCardInfo = styled.div`
+export const CardsCardInfo = styled.div`
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -73,25 +74,25 @@ export const PricingCardInfo = styled.div`
   color: #fff;
 `;
 
-export const PricingCardIcon = styled.div`
+export const CardsCardIcon = styled.div`
   margin: 24px 0;
 `;
 
-export const PricingCardPlan = styled.h3`
+export const CardsCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
 `;
 
-export const PricingCardCost = styled.h4`
+export const CardsCardCost = styled.h4`
   font-size: 40px;
 `;
 
-export const PricingCardLength = styled.p`
+export const CardsCardLength = styled.p`
   font-size: 14px;
   margin-bottom: 24px;
 `;
 
-export const PricingCardFeatures = styled.ul`
+export const CardsCardFeatures = styled.ul`
   margin: 16px 0 32px;
   list-style: none;
   display: flex;
@@ -100,6 +101,6 @@ export const PricingCardFeatures = styled.ul`
   color: #a9b3c1;
 `;
 
-export const PricingCardFeature = styled.li`
+export const CardsCardFeature = styled.li`
   margin-bottom: 10px;
 `;

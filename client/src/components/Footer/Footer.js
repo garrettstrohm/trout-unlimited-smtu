@@ -43,35 +43,23 @@ const Footer = () => {
                     <FooterLinkTitle>About Us</FooterLinkTitle>
                     <FooterLink to='/about'>Our Chapter</FooterLink>
                     <FooterLink to='/'>History</FooterLink>
-                    <FooterLink to='/'>Careers</FooterLink>
-                    <FooterLink to='/'>Investors</FooterLink>
-                    <FooterLink to='/'>Terms of Service</FooterLink>
+                    <FooterLink to='/'>Past Events</FooterLink>
                 </FooterLinksItems>
                 <FooterLinksItems>
                     <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                    <FooterLink to='/sign-up'>How it works</FooterLink>
-                    <FooterLink to='/'>Testimonials</FooterLink>
-                    <FooterLink to='/'>Careers</FooterLink>
-                    <FooterLink to='/'>Investors</FooterLink>
-                    <FooterLink to='/'>Terms of Service</FooterLink>
+                    <FooterLink to='/'>Contact Page</FooterLink>
+                    <FooterLink to='/'>Email Us</FooterLink>
             </FooterLinksItems>
             </FooterLinksWrapper>
                 <FooterLinksWrapper>
                 <FooterLinksItems>
                     <FooterLinkTitle>Resources</FooterLinkTitle>
-                    <FooterLink to='/sign-up'>How it works</FooterLink>
-                    <FooterLink to='/'>Testimonials</FooterLink>
-                    <FooterLink to='/'>Careers</FooterLink>
-                    <FooterLink to='/'>Investors</FooterLink>
-                    <FooterLink to='/'>Terms of Service</FooterLink>
+                    <FooterLink to='/'>Fly Tying & Selection</FooterLink>
+                    <FooterLink to='/'>Upcoming Events</FooterLink>
                 </FooterLinksItems>
                 <FooterLinksItems>
                     <FooterLinkTitle>Videos</FooterLinkTitle>
-                    <FooterLink to='/sign-up'>How it works</FooterLink>
-                    <FooterLink to='/'>Testimonials</FooterLink>
-                    <FooterLink to='/'>Careers</FooterLink>
-                    <FooterLink to='/'>Investors</FooterLink>
-                    <FooterLink to='/'>Terms of Service</FooterLink>
+                    <FooterLink to='/sign-up'>Fly Tying 101</FooterLink>
                 </FooterLinksItems>
             </FooterLinksWrapper>
         </FooterLinksContainer>
