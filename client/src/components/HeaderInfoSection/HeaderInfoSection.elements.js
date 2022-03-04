@@ -4,7 +4,7 @@ import trout from '../../assets/trout.jpg';
 export const HeaderInfoSec = styled.div`
     color: #fff;
     width: 100%;
-    padding: 160px 0;
+    padding: 210px 0;
     background: ${({lightBg}) => (lightBg ? '#f0f0e2' : '#101522')};
     background-image: ${({bgImg}) => (bgImg ? `url(${trout})` : '')};
     background-size: cover;
