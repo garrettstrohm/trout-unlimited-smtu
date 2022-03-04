@@ -2,9 +2,9 @@ import {Navbar, Footer} from './components'
 import GlobalStyle from './globalStyles';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/HomePage/Home';
-import Signup from './pages/SignUp/SignUp';
-import Products from './pages/Products/Products';
-import Services from './pages/Services/Services';
+import Join from './pages/Join/Join';
+import ChapterHistory from './pages/ChapterHistory/ChapterHistory';
+import About from './pages/About/About';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />}/>
-        <Route path='/services' element={<Services />}/>
-        <Route path='/products' element={<Products />}/>
-        <Route path='/sign-up' element={<Signup />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/history' element={<ChapterHistory />}/>
+        <Route path='/join' element={<Join />}/>
       </Routes>
       <Footer />
     </Router>
