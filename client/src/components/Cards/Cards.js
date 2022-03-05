@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiRock } from 'react-icons/gi';
+import tuWhite from '../../assets/tu-white.png'
+import { BiDollarCircle } from 'react-icons/bi';
 import { IconContext } from 'react-icons/lib';
 import {
   CardsSection,
@@ -11,50 +11,42 @@ import {
   CardsCard,
   CardsCardInfo,
   CardsCardIcon,
-  CardsCardPlan,
-  CardsCardCost,
-  CardsCardLength,
+  CardsCardTitle,
   CardsCardFeatures,
-  CardsCardFeature
+  CardsCardFeature, 
+  CardsCardImage
 } from './Cards.elements';
-
 const Cards = () => {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 86 }}>
       <CardsSection>
         <CardsWrapper>
-          <CardsHeading>Our Services</CardsHeading>
+          <CardsHeading>Join or Donate</CardsHeading>
           <CardsContainer>
-            <CardsCard to='/sign-up'>
+            <CardsCard to='/donate'>
               <CardsCardInfo>
                 <CardsCardIcon>
-                  <GiRock />
+                  <BiDollarCircle />
                 </CardsCardIcon>
-                <CardsCardPlan>Starter Pack</CardsCardPlan>
-                <CardsCardCost>$99.99</CardsCardCost>
-                <CardsCardLength>per month</CardsCardLength>
+                <CardsCardTitle>Donate</CardsCardTitle>
                 <CardsCardFeatures>
-                  <CardsCardFeature>100 New Users</CardsCardFeature>
-                  <CardsCardFeature>$10,000 Budget</CardsCardFeature>
-                  <CardsCardFeature>Retargeting analytics</CardsCardFeature>
+                  <CardsCardFeature>Donations are currently only being accepted by cash or check via mail at this time.</CardsCardFeature>
+                  <CardsCardFeature>Please mail donations to:</CardsCardFeature>
+                  <CardsCardFeature>*Address*</CardsCardFeature>
                 </CardsCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button>Donate Now</Button>
               </CardsCardInfo>
             </CardsCard>
             <CardsCard to='/sign-up'>
               <CardsCardInfo>
                 <CardsCardIcon>
-                  <GiCrystalBars />
+                  <CardsCardImage src={tuWhite} alt="white tu logo"/>
                 </CardsCardIcon>
-                <CardsCardPlan>Gold Rush</CardsCardPlan>
-                <CardsCardCost>$299.99</CardsCardCost>
-                <CardsCardLength>per month</CardsCardLength>
+                <CardsCardTitle>Join</CardsCardTitle>
                 <CardsCardFeatures>
-                  <CardsCardFeature>1000 New Users</CardsCardFeature>
-                  <CardsCardFeature>$50,000 Budget</CardsCardFeature>
-                  <CardsCardFeature>Lead Gen Analytics</CardsCardFeature>
+                  <CardsCardFeature>To join our chapter, all you need is a membership to Trout Unlimited. Click the button below to go to Trout Unlimited's national website and sign up!</CardsCardFeature>
                 </CardsCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button>Join Today</Button>
               </CardsCardInfo>
             </CardsCard>
           </CardsContainer>
