@@ -6,7 +6,7 @@ export const CardsSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #bf5106;
+  background: #142d5f;
 `;
 
 export const CardsWrapper = styled.div`
@@ -44,7 +44,7 @@ export const CardsContainer = styled.div`
 
 export const CardsCard = styled(Link)`
   background: #242424;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.25);
   width: 280px;
   height: 500px;
   text-decoration: none;
@@ -78,13 +78,14 @@ export const CardsCardIcon = styled.div`
   margin: 24px 0;
 `;
 
-export const CardsCardPlan = styled.h3`
+export const CardsCardImage = styled.img`
+  height: 80px;
+  margin: 15px auto;
+`
+
+export const CardsCardTitle= styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
-`;
-
-export const CardsCardCost = styled.h4`
-  font-size: 40px;
 `;
 
 export const CardsCardLength = styled.p`
@@ -98,7 +99,8 @@ export const CardsCardFeatures = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #a9b3c1;
+  text-align: center;
+  color: #fff;
 `;
 
 export const CardsCardFeature = styled.li`

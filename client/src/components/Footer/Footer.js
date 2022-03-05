@@ -27,15 +27,8 @@ const Footer = () => {
     <FooterContainer>
         <FooterSubscription>
             <FooterSubHeading>
-                Join our membership to gain access to the latest news and trends
+                Learn more about what Trout Unlimited is All About Below
             </FooterSubHeading>
-            <FooterSubText>
-                You can unsubscribe at any time.
-            </FooterSubText>
-            <Form>
-                <FormInput name='email' type='email' placeholder='Your Email'/>
-                    <Button fontBig>Subscribe</Button>
-            </Form>
         </FooterSubscription>
         <FooterLinksContainer>
             <FooterLinksWrapper>
