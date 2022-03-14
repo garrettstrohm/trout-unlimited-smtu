@@ -9,14 +9,15 @@ import {
 const HeaderInfoSection = ({
     lightBg,
     lightText, 
-    bgImg
+    bgImg,
+    message
 }) => {
     return (
         <>
             <HeaderInfoSec lightBg={lightBg} bgImg={bgImg}>
                 <Container>
                     <HeaderInfoRow>
-                        <Header lightText={lightText}>Join TU or Donate Today</Header>
+                        <Header lightText={lightText}>{message}</Header>
                     </HeaderInfoRow>
                 </Container>
             </HeaderInfoSec>
