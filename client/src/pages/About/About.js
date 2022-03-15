@@ -1,11 +1,18 @@
 import React from 'react'
-import { HeaderInfoSection } from '../../components'
-import { aboutObjOne } from './Data'
+import { 
+  HeaderInfoSection,
+  WritingSection
+} from '../../components'
+import { 
+  aboutHeader,
+  aboutObjOne 
+} from './Data'
 
 const About = () => {
   return (
     <div>
-        <HeaderInfoSection {...aboutObjOne}/>
+        <HeaderInfoSection {...aboutHeader}/>
+        <WritingSection {...aboutObjOne} />
     </div>
   )
 }
