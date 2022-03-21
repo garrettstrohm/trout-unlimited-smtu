@@ -1,7 +1,8 @@
 import React from 'react'
 import { 
   HeaderInfoSection,
-  WritingSection
+  WritingSection,
+  BoardSection
 } from '../../components'
 import { 
   aboutHeader,
@@ -17,6 +18,7 @@ const About = () => {
         <WritingSection {...aboutObjOne} />
         <WritingSection {...aboutObjTwo} />
         <WritingSection {...aboutObjThree} />
+        <BoardSection />
     </div>
   )
 }
