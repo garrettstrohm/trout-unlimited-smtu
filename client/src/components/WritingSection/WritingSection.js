@@ -3,10 +3,12 @@ import { Container } from '../../globalStyles'
 import {
     WritingSec,
     WritingRow,
-    WritingColumn,
+    // WritingColumn,
     TextWrapper,
     Heading,
-    WritingParagraph
+    WritingParagraph,
+    // WritingImageWrapper,
+    // WritingImage
 } from './WritingSection.elements.js'
 
 const WritingSection = ({
@@ -15,19 +17,27 @@ const WritingSection = ({
     lightText,
     lightTextDesc,
     about,
-    header
+    header,
+    img,
+    alt, 
+    start
 }) => {
   return (
     <>
         <WritingSec lightBg={lightBg}>
             <Container>
                 <WritingRow imgStart={imgStart}>
-                    <WritingColumn>
+                    {/* <WritingColumn> */}
                         <TextWrapper>
                             <Heading lightText={lightText}>{header}</Heading>
                             <WritingParagraph lightTextDesc={lightTextDesc}>{about}</WritingParagraph>
                         </TextWrapper>
-                    </WritingColumn>
+                    {/* </WritingColumn> */}
+                    {/* <WritingColumn>
+                        <WritingImageWrapper start={start}>
+                            <WritingImage src={img} alt={alt}/>
+                        </WritingImageWrapper>
+                    </WritingColumn> */}
                 </WritingRow>
             </Container>
         </WritingSec>

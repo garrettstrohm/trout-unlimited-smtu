@@ -16,6 +16,8 @@ import {
   CardsCardFeature, 
   CardsCardImage
 } from './Cards.elements';
+
+import { Link } from 'react-router-dom';
 const Cards = () => {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 86 }}>
@@ -23,7 +25,7 @@ const Cards = () => {
         <CardsWrapper>
           <CardsHeading>Join or Donate</CardsHeading>
           <CardsContainer>
-            <CardsCard to='/donate'>
+            <CardsCard>
               <CardsCardInfo>
                 <CardsCardIcon>
                   <BiDollarCircle />
@@ -34,10 +36,9 @@ const Cards = () => {
                   <CardsCardFeature>Please mail donations to:</CardsCardFeature>
                   <CardsCardFeature>*Address*</CardsCardFeature>
                 </CardsCardFeatures>
-                <Button>Donate Now</Button>
               </CardsCardInfo>
             </CardsCard>
-            <CardsCard to='/sign-up'>
+            <CardsCard>
               <CardsCardInfo>
                 <CardsCardIcon>
                   <CardsCardImage src={tuWhite} alt="white tu logo"/>
@@ -46,7 +47,7 @@ const Cards = () => {
                 <CardsCardFeatures>
                   <CardsCardFeature>To join our chapter, all you need is a membership to Trout Unlimited. Click the button below to go to Trout Unlimited's national website and sign up!</CardsCardFeature>
                 </CardsCardFeatures>
-                <Button>Join Today</Button>
+                <a href="https://www.tu.org/memberships-and-giving/#membership"><Button>Join Today</Button></a>
               </CardsCardInfo>
             </CardsCard>
           </CardsContainer>

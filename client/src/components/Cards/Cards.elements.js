@@ -42,7 +42,7 @@ export const CardsContainer = styled.div`
   }
 `;
 
-export const CardsCard = styled(Link)`
+export const CardsCard = styled.div`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.25);
   width: 280px;

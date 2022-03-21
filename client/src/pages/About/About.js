@@ -5,14 +5,18 @@ import {
 } from '../../components'
 import { 
   aboutHeader,
-  aboutObjOne 
+  aboutObjOne,
+  aboutObjTwo,
+  aboutObjThree 
 } from './Data'
 
 const About = () => {
   return (
     <div>
-        <HeaderInfoSection {...aboutHeader}/>
+        <HeaderInfoSection {...aboutHeader} />
         <WritingSection {...aboutObjOne} />
+        <WritingSection {...aboutObjTwo} />
+        <WritingSection {...aboutObjThree} />
     </div>
   )
 }
