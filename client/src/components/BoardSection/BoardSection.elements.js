@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BoardSec = styled.div`
     color: #fff;
     width: 100%;
-    padding: 160px 0;
+    padding: 160px 0px 40px 0px;
     background: #f0f0e2;
 `;
 
@@ -40,6 +40,7 @@ export const ImgWrapper = styled.div`
 export const Img = styled.img`
     max-width: 100%;
     border: 0;
+    vertical-align: middle;
     display: inline-block;
     max-height: 450px;
 `;
