@@ -19,6 +19,7 @@ export const homeObjOne = {
     img: lewistown,
     alt: 'splash section',
     start: '',
+    route: '/about'
   };
 
   export const homeObjTwo = {
@@ -36,6 +37,7 @@ export const homeObjOne = {
     img: flyfishing,
     alt: 'flyfishing',
     start: 'true',
+    route: '/history'
   };
 
   export const homeObjThree = {
@@ -53,4 +55,5 @@ export const homeObjOne = {
     img: tuWhite,
     alt: 'tu logo',
     start: '',
+    route: '/join'
   };
