@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import water from '../../assets/water.png'
 
 export const EventSec = styled.div`
     color: #fff;
@@ -38,6 +39,7 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+    white-space: pre-wrap;
     text-shadow: ${({waterBg}) => (waterBg ? '1px 1px 2px #000' : '')};
 
     @media screen and (max-width: 768px){
