@@ -32,9 +32,10 @@ const Cards = () => {
                 </CardsCardIcon>
                 <CardsCardTitle>Donate</CardsCardTitle>
                 <CardsCardFeatures>
-                  <CardsCardFeature>Donations are currently only being accepted by cash or check via mail at this time.</CardsCardFeature>
+                  <CardsCardFeature>Donations are currently only being accepted as a check (made out to Candy Bowman, Treasurer) via mail at this time.</CardsCardFeature>
                   <CardsCardFeature>Please mail donations to:</CardsCardFeature>
-                  <CardsCardFeature>*Address*</CardsCardFeature>
+                  <CardsCardFeature>123 Laughing Water Lane</CardsCardFeature>
+                  <CardsCardFeature>Lewistown, MT 59457</CardsCardFeature>
                 </CardsCardFeatures>
               </CardsCardInfo>
             </CardsCard>

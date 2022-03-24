@@ -29,7 +29,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'What We\'ve Accomplished',
-    headline: 'Learn more about our Chapter History',
+    headline: 'Learn more about our Recent Projects and Chapter History',
     description:
       'Trout habitat around Montana is some of the most prestine in the world. But it doesn\'t mean it can\'t use some help along the way.',
     buttonLabel: 'Chapter History',
