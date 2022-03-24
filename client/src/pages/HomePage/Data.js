@@ -1,11 +1,19 @@
 import tuWhite from '../../assets/tu-white.png'
 import lewistown from '../../assets/fergus.png'
 import flyfishing from '../../assets/flyfishing.jpeg'
+import water from '../../assets/water.png'
+
+export const homeHeaderObj = {
+    lightBg: true,
+    bgImg: `url(${water})`,
+    lightText: true,
+    message: "Our Chapter's History"
+};
 
 export const homeObjOne = {
     primary: false,
     lightBg: false,
-    bgImg: true,
+    bgImg: false,
     waterBg: true,
     lightTopLine: true,
     lightText: true,
