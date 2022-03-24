@@ -7,7 +7,7 @@ export const homeHeaderObj = {
     lightBg: true,
     bgImg: `url(${water})`,
     lightText: true,
-    message: "Our Chapter's History"
+    message: "Welcome to Snowy Mountain Trout Unlimited"
 };
 
 export const homeObjOne = {
@@ -19,7 +19,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Lewistown, MT',
-    headline: 'Welcome to Snowy Mountain Trout Unlimited',
+    headline: 'Checkout Our Chapter and Learn More about What We Do',
     description:
       'We are based out of Lewistown, MT and are a small chapter of Trout Conversvationalists.',
     buttonLabel: 'About Us',
