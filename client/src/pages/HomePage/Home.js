@@ -1,6 +1,10 @@
 import React from 'react'
-import { InfoSection } from '../../components'
 import { 
+  InfoSection,
+  HeaderInfoSection 
+} from '../../components'
+import {
+  homeHeaderObj, 
   homeObjOne, 
   homeObjTwo, 
   homeObjThree
@@ -9,9 +13,10 @@ import {
 const Home = () => {
   return (
     <>
-        <InfoSection {...homeObjOne}/>
-        <InfoSection {...homeObjTwo}/>
-        <InfoSection {...homeObjThree}/>
+      <HeaderInfoSection {...homeHeaderObj}/>
+      <InfoSection {...homeObjOne}/>
+      <InfoSection {...homeObjTwo}/>
+      <InfoSection {...homeObjThree}/>
     </>
   )
 }

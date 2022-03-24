@@ -1,17 +1,25 @@
 import tuWhite from '../../assets/tu-white.png'
 import lewistown from '../../assets/fergus.png'
 import flyfishing from '../../assets/flyfishing.jpeg'
+import water from '../../assets/water.png'
+
+export const homeHeaderObj = {
+    lightBg: true,
+    bgImg: `url(${water})`,
+    lightText: true,
+    message: "Welcome to Snowy Mountain Trout Unlimited"
+};
 
 export const homeObjOne = {
     primary: false,
     lightBg: false,
-    bgImg: true,
+    bgImg: false,
     waterBg: true,
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Lewistown, MT',
-    headline: 'Welcome to Snowy Mountain Trout Unlimited',
+    headline: 'Checkout Our Chapter and Learn More about What We Do',
     description:
       'We are based out of Lewistown, MT and are a small chapter of Trout Conversvationalists.',
     buttonLabel: 'About Us',
